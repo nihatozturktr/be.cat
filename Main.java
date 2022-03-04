@@ -16,6 +16,10 @@ public class Main {
 
 
         Animal animal = new Animal('l','k',"brown",15.2);
+        AndeanMountainCat aMcat =new AndeanMountainCat();
+
+
+
 
 
 
@@ -26,6 +30,7 @@ public class Main {
                 new PersianCat("Diva",14,222,444),
                 new NorwegianForestCat("Apple",10,11,111),
                 new TurkishVanCat("maya",10,12,45,"Minnos")};
+
         System.out.println(Arrays.toString(catArr2));
 
 
@@ -33,7 +38,7 @@ public class Main {
         System.out.println("-------3-----------");
 
         System.out.println("Animal Count :"+Animal.getAnimalCount());
-        System.out.println("VaccitationCount"+Felis.getVaccitationCount());
+        System.out.println("VaccitationCount :"+Felis.getVaccitationCount());
 
 
 

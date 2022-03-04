@@ -1,6 +1,10 @@
 package com.intec;
 
 public class TurkishVanCat extends Felis{
+
+
+
+
 public String nickname;
 
     public TurkishVanCat(String name) {
@@ -10,6 +14,7 @@ public String nickname;
 
     public TurkishVanCat(String name, int age, int shelterNo, int badgeNo, String nickname) {
         super(name, age, shelterNo, badgeNo);
+        this.nickname=nickname;// Ales ile ekledik
 
     }
 

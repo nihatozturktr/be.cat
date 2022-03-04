@@ -1,19 +1,18 @@
 package com.intec;
 
-
 import java.util.Objects;
 
 public class Felis extends Animal{
-
-
-
-
-    private static int vaccinationCount;
     private String name;
     private int age;
     private int shelterNo;
     private int badgeNo;
 
+    private static int vaccinationCount;
+
+    public Felis() {
+
+    }
 
     {
         if(isAlive()){
@@ -35,6 +34,8 @@ public class Felis extends Animal{
     public Felis(int badgeNo, int shelterNo) {
 
     }
+
+
 
     public String getName() {
         return name;
@@ -68,27 +69,47 @@ public class Felis extends Animal{
         this.badgeNo = badgeNo;
     }
 
-    public void miauw(){
+    public void miauw(){//Ok
 
         System.out.println("Make sound 'miauw'");
     }
-    public int miauwTimes(int times){
-        return times;
+    public void miauw(int times){// Ik heb met Alexander gemakt.
+
+        System.out.println("Cat miauwes : "+times +"times");
+
+
+        for (int i = 0; i < times; i++) {
+            System.out.println("miauw");
+
+        }
+
     }
+
     public static int getNoOfVaccivatedCats(){
 
         return vaccinationCount;
-    }public static void setVaccinationCount(int vaccitationCount ){
+
+    }
+
+    public static void setVaccinationCount(int vaccitationCount ){
         Felis.vaccinationCount= vaccitationCount;
     }
     public static int getVaccitationCount() {
         return vaccinationCount;
     }
-// Override
+
     @Override
-    public String toString() {
-        return name;
+    public String toString(){
+        return "Felis{"+
+                "name =' "+name +'\''+
+                ", age="+age +
+                ", shelterNo=" +shelterNo +
+                ", badgeNo= "+ badgeNo+
+                "}"+ super.toString();
     }
+
+
+
 
     @Override
     public boolean equals(Object obj) {

@@ -20,9 +20,14 @@ public class Acinonyx extends Animal{// cita
         this.speed = speed;
     }
 
-    public double run(double distance){
-        return distance;
+    public void run(double distance){
+        System.out.println("Running a distiance of :" +distance+ "km  " );;
 
+    }
+
+    @Override
+    public String toString() {
+        return "Acinonyx{}";
     }
 
     static void kiauuww(){

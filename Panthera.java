@@ -2,8 +2,9 @@ package com.intec;
 
 public class Panthera extends Animal {
 
-    public void roar(){// Duzelt String donecek
-        System.out.println("Roar");
+    public String roar(){// Duzelt String donecek
+
+       return "Roor";
 
 
     }
@@ -12,4 +13,8 @@ public class Panthera extends Animal {
 
     }
 
+    @Override
+    public String toString() {
+        return "Panthera{}";
+    }
 }

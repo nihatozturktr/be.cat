@@ -3,8 +3,9 @@ package com.intec;
 public class AndeanMountainCat extends Felis{
 
 
-    public AndeanMountainCat(int badgeNo, int shelterNo) {
-        super(badgeNo, shelterNo);
+    public AndeanMountainCat(){
+        super();
+
     }
     public String miauw(String customSound){
         return customSound;

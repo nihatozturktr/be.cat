@@ -13,9 +13,10 @@ public class PersianCat extends Felis{
     public PersianCat(String name) {
         super(name);
     }
-
+@Override// Alex ile ekledik
     public void miauw(){
-       super.miauw();
+
+    System.out.println("Persian cat miaws");// Alex ile duzelttik
     }
 
     @Override
