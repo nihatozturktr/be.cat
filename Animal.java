@@ -10,7 +10,7 @@ public class Animal {
 
     protected static int animalCount;//OK
     static {
-        animalCount++;//OK
+        animalCount++;//OK////
     }
     public Animal(  ){//    OK  /** ik heb de constructor gemaakt  */
 
