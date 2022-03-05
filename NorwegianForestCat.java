@@ -9,12 +9,12 @@ public class NorwegianForestCat extends Felis{
         super(name,age,shelterNo,badgeNo);
     }
 
-    public void miauwlnNorvegian(){
+    public void miauwlnNorwegian(){
         System.out.println("Norvegians cat miauw");
 
     }
     @Override
     public String toString() {
-        return  super.toString() + " is a Norwegian Forest cat " ;
+        return "NorwegianForestCat{}" + super.toString()  ;
     }
 }

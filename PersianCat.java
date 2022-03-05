@@ -17,7 +17,7 @@ public class PersianCat extends Felis{
     public void miauw(){
 
     System.out.println("Persian cat miaws");// Alex ile duzelttik
-    }
+    }//.....
 
     @Override
     public String toString() {
